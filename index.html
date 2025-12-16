@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mathieu DAVID - Artisan menuisier charpentier dans le Morbihan. Spécialiste du travail du bois : charpente, menuiserie extérieure, terrasse, agencement, isolation, plaquiste, mobilier sur mesure.">
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="preload" as="image" href="bouton-parquet.jpg" fetchpriority="high">
     <title>Mathieu DAVID - Menuiserie Charpente Morbihan</title>
     </head>
 
@@ -108,6 +107,31 @@ body {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+.cta-button-nav {
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    /*background: rgba(151, 115, 24, 0.1);*/
+    /*background-image: url(bouton-parquet.jpg) ;*/
+    border-width: 2px !important;
+    border-color: white;
+    border-style: solid;
+
+    color: white;
+    text-decoration: none;
+    /*border-radius: 50px;*/
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button-nav:hover {
+   /*background: #A0522D;*/
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
 
 .cta-button {
     display: inline-block;
@@ -430,7 +454,7 @@ footer {
         <img src="logo.jpg" alt="Logo Mathieu DAVID Menuiserie" class="logo">
         <h1>MATHIEU DAVID</h1>
         <p>Artisan Menuisier Charpentier - Morbihan</p>
-        <a href="#contact" class="cta-button">Contacter Mathieu</a>
+        <a href="#contact" class="cta-button-nav">Contacter Mathieu</a>
         <a class="discover-link-button" href="index.html#services"><p class="blockdecouvrir"><span class="decouvrir"><img class="decouvrir" src="doigt-bas-gauche.png" alt=""></span><span class="me-decouvrir">Me découvrir</span><span class="decouvrir"><img class="decouvrir" src="doigt-bas-droite.png" alt=""></span></p></a>
     </section>
 
